@@ -1,0 +1,74 @@
+Getting and Cleaning Data Assignment code book:
+
+	The tidy data set provided is composed of the average value, for each subject and each activity, of the mean and standard deviation of the time and frequency domain measures of the x,y and z component of acceleration (decomposed in body and gravity motion components) and angular velocity. The data was extracted from a Samsung's Human Activity Recognition Using Smartphones study. For more information refer to:
+
+	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+	Below we have a list of each column of the data set with an explanation about its contents:
+
+	*** the data have been normalized, so there are no units, all of the observations are adimensional
+
+		subject: contains an id of the subject that performed the test (integer from 1 to 30)
+
+		activityname: contains the activity that was performed by the subject during the test (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
+
+		timebodyaccelerationmeanx: time domain average of the normalized mean of the body component x-axis acceleration for the corresponding subject and activity
+
+		timebodyaccelerationmeany: time domain average of the normalized mean of the body component y-axis acceleration for the corresponding subject and activity
+
+		timebodyaccelerationmeanz: time domain average of the normalized mean of the body component z-axis acceleration for the corresponding subject and activity
+
+		timebodyaccelerationstdddeviationx: time domain average of the standard deviation of the body component x-axis acceleration for the corresponding subject and activity
+
+		timebodyaccelerationstdddeviationy: time domain average of the standard deviation of the body component y-axis acceleration for the corresponding subject and activity
+
+		timebodyaccelerationstdddeviationz: time domain average of the standard deviation of the body component z-axis acceleration for the corresponding subject and activity
+
+		timegravityaccelerationmeanx: time domain average of the normalized mean of the gravity component x-axis acceleration for the corresponding subject and activity
+
+		timegravityaccelerationmeany: time domain average of the normalized mean of the gravity component y-axis acceleration for the corresponding subject and activity
+
+		timegravityaccelerationmeanz: time domain average of the normalized mean of the gravity component z-axis acceleration for the corresponding subject and activity
+
+		timegravityaccelerationstdddeviationx: time domain average of the standard deviation of the gravity component x-axis acceleration for the corresponding subject and activity
+
+		timegravityaccelerationstdddeviationy: time domain average of the standard deviation of the gravity component y-axis acceleration for the corresponding subject and activity
+
+		timegravityaccelerationstdddeviationz: time domain average of the standard deviation of the gravity component z-axis acceleration for the corresponding subject and activity
+
+		timebodyangularvelocitymeanx: time domain average of the normalized mean of the x-axis angular velocity for the corresponding subject and activity
+
+		timebodyangularvelocitymeany: time domain average of the normalized mean of the y-axis acceleration for the corresponding subject and activity
+
+		timebodyangularvelocitymeanz: time domain average of the normalized mean of the z-axis acceleration for the corresponding subject and activity
+
+		timebodyangularvelocitystdddeviationx: time domain average of the standard deviation of the x-axis angular velocity for the corresponding subject and activity
+
+		timebodyangularvelocitystdddeviationy: time domain average of the standard deviation of the y-axis angular velocity for the corresponding subject and activity
+
+		timebodyangularvelocitystdddeviationz: time domain average of the standard deviation of the z-axis angular velocity for the corresponding subject and activity
+
+		frequencybodyaccelerationmeanx: frequency domain average of the normalized mean of the body component x-axis acceleration for the corresponding subject and activity
+
+		frequencybodyaccelerationmeany: frequency domain average of the normalized mean of the body component y-axis acceleration for the corresponding subject and activity
+
+		frequencybodyaccelerationmeanz: frequency domain average of the normalized mean of the body component z-axis acceleration for the corresponding subject and activity
+
+		frequencybodyaccelerationstddeviationx: frequency domain average of the standard deviation of the body component x-axis acceleration for the corresponding subject and activity
+
+		frequencybodyaccelerationstddeviationy: frequency domain average of the standard deviation of the body component y-axis acceleration for the corresponding subject and activity
+
+		frequencybodyaccelerationstddeviationz: frequency domain average of the standard deviation of the body component z-axis acceleration for the corresponding subject and activity
+			
+		frequencybodyangularvelocitymeanx: frequency domain average of the normalized mean of the x-axis angular velocity for the corresponding subject and activity
+
+		frequencybodyangularvelocitymeany: frequency domain average of the normalized mean of the y-axis angular velocity for the corresponding subject and activity
+
+		frequencybodyangularvelocitymeanz: frequency domain average of the normalized mean of the z-axis angular velocity for the corresponding subject and activity
+
+		frequencybodyangularvelocitystddeviationx: frequency domain average of the standard deviation of the x-axis angular velocity for the corresponding subject and activity
+
+		frequencybodyangularvelocitystddeviationy: frequency domain average of the standard deviation of the y-axis angular velocity for the corresponding subject and activity
+			
+		frequencybodyangularvelocitystddeviationz: frequency domain average of the standard deviation of the z-axis angular velocity for the corresponding subject and activity
+
